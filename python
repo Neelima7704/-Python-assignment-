@@ -1,0 +1,70 @@
+# -Python-assignment-
+what is git ?
+Git is a version control system used for tracking changes in computer files
+
+what is github? 
+GitHub,is an Internet hosting service for software development and version control using Git.
+
+what is a repository?
+A repository contains all of our project's files and each file's revision history. we can discuss and manage our project's work within the repository
+
+#program 1:
+  ##finding a factorial of given number 
+ The factorial of a number is the product of all the integers from 1 to that number.
+Here the number whose factorial is to be found is stored in num, and we check if the number is negative, zero or positive using if...elif...else statement.
+
+#program 2:
+##To find whether the given arrays are equal or not
+
+Two arrays are said to be equal if:
+
+both of them contain the same set of elements, 
+arrangements (or permutations) of elements might/might not be same.
+by using assignment operator we can find whether the two lists are equal or not like list1==list2
+
+#program 3:
+finding prime number 
+
+We check if num is exactly divisible by any number from 2 to num - 1. If we find a factor in that range, the number is not prime, so we set flag to True and break out of the loop.
+
+Outside the loop, we check if flag is True or False.
+
+If it is True, num is not a prime number.
+If it is False, num is a prime number.
+
+#program 4
+#palindrome or not 
+a number or string which reads same from either left to right or right to left
+by using reverse function we can find given is palindrome or not
+
+#program 5:
+multiplication of two matrices 
+Step1: input two matrix.
+Step 2: nested for loops to iterate through each row and each column.
+Step 3: take one resultant matrix which is initially contains all 0. Then we multiply each row elements of first matrix with each elements of second matrix, then add all multiplied value. That is the value of resultant matrix.
+
+
+#program 6:
+smallest number in given list 
+program where we are sorting the entire list and then returning the first element as it’ll be the smallest element present in the list.
+
+#program 7:
+sum of n natural numbers 
+the program we have used an if else statement in combination with a while loop to calculate the sum of natural numbers upto the given number 
+
+#program 8:
+program for slicing 
+The format for list slicing is [start:stop:step].
+start is the index of the list where slicing starts.
+stop is the index of the list where slicing ends.
+step allows you to select nth item within the range start to stop
+
+#program 9
+printing number in pattern 1,12,123,1234,12345
+The first outer loop is used to handle a number of rows and the inner loop is used to handle a number of columns.
+print(j, end=” “) is used to display numbers and the other print(“”) is used for the next line after each row.
+
+#program 10:
+gcd of two numbers 
+Here, two integers stored in variables num1 and num2 are passed to the compute_gcd() function. The function computes the G.C.D these two numbers and returns it.
+
